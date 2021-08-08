@@ -1,0 +1,329 @@
+
+@media (min-width: 768px) {
+    .eu-container+.active-sticky-footer {
+     bottom:43px
+    }
+    .col-md-2 {
+     width:33.333%;
+     float:left
+    }
+    .simpli_terms {
+     width:100%;
+     display:inline-block;
+     margin-bottom:0
+    }
+    .simpli_terms li a {
+     display:inline-block
+    }
+    .simpli_terms li:after {
+     content:"";
+     width:5px;
+     height:5px;
+     background:#b3b3b3;
+     border-radius:100%;
+     display:inline-block;
+     margin-right:10px;
+     margin-left:15px
+    }
+    .simpli_terms li:nth-last-child(1):after,
+    .simpli_terms li:nth-last-child(2):after {
+     display:none
+    }
+    footer .foot-socials {
+     text-align:left;
+     max-width:155px
+    }
+    footer .foot-socials a.refer-earn {
+     text-align:center
+    }
+    footer .foot_company {
+     width:33%;
+     margin-left:9%
+    }
+    footer .footer_workus {
+     margin-left:0;
+     width:30%
+    }
+    footer .footer_discover {
+     width:62%
+    }
+    .disc-section#disclaimers {
+     border-top:1px solid rgba(70,69,69,0.45)
+    }
+   }
+   @media (min-width: 992px) {
+    footer .simpli_terms li a {
+     color:rgba(253,253,253,0.9)
+    }
+    footer .simpli_terms #footer-country {
+     color:rgba(253,253,253,0.9)
+    }
+    footer .foot_company {
+     width:18%;
+     margin-left:5%
+    }
+    footer .footer_workus {
+     width:18%
+    }
+    footer .footer_discover {
+     width:18%
+    }
+    footer .footer_discover div {
+     width:100%
+    }
+    footer .footer_discover div:last-child {
+     padding-left:0
+    }
+    footer .footer-disc {
+     width:23%
+    }
+    footer .footer-container a {
+     display:table
+    }
+    .footer_sticky_bar .live_chat_div {
+     width:615px
+    }
+    .live_chat_div {
+     float:right;
+     list-style:none;
+     margin:0 -3px 0 0;
+     padding:0
+    }
+    .live_chat_div li {
+     vertical-align:middle;
+     color:#fff;
+     float:left;
+     font-size:13px;
+     margin-left:75px
+    }
+    .live_chat_div li.live_chat_icon {
+     float:right
+    }
+    .live_chat_div li.live_chat_icon a img {
+     margin-left:10px;
+     margin-right:16px;
+     height:21px
+    }
+    .footer_sticky_bar .mobile_lead_wrapper {
+     display:none !important
+    }
+    footer .foot-socials a.mobile {
+     display:none
+    }
+   }
+   .footer_date {
+    font-size:16px;
+    text-align:center;
+    margin-bottom:45px;
+    color:transparent;
+    visibility:hidden
+   }
+   @media (min-width: 1200px) {
+    footer .foot_company {
+     width:14%;
+     margin-left:3%
+    }
+    footer .footer_workus {
+     width:18%
+    }
+    footer .footer_discover {
+     width:32%
+    }
+    footer .footer_discover div {
+     width:50%
+    }
+    footer .footer-disc {
+     width:19%;
+     padding-right:0
+    }
+    footer .footer-disc a {
+     margin-right:0
+    }
+    .footer_sticky_bar .live_chat_div {
+     width:875px
+    }
+    .footer_sticky_bar .live_chat_div li {
+     margin-left:90px
+    }
+    .footer_sticky_bar .live_chat_div li:first-child {
+     margin-left:0
+    }
+    .call_no_stiky {
+     line-height:33px;
+     padding:7px 20px 0 0
+    }
+    .live_chat_div .call_no_stiky {
+     padding-right:20px;
+     display:block
+    }
+    footer .foot-socials {
+     padding-left:0
+    }
+    footer .foot-socials a.refer-earn {
+     margin-left:0
+    }
+   }
+   .home-page #offerbanner {
+    display:none
+   }
+   .home-page h2 {
+    font-size:24px;
+    font-weight:300;
+    line-height:1.42;
+    letter-spacing:1px;
+    color:#272c37;
+    max-width:280px
+   }
+   .home-page .subtext {
+    margin-top:12px;
+    font-size:14px;
+    line-height:1.71;
+    color:#51565e;
+    padding-right:20px
+   }
+   .home-page .ul-iners {
+    overflow:hidden;
+    width:100%
+   }
+   .home-page .ul-iners ul {
+    min-width:45000px;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-flex-wrap:wrap;
+    -ms-flex-wrap:wrap;
+    flex-wrap:wrap;
+    margin-bottom:4px
+   }
+   .home-page .ul-iners ul li {
+    width:330px;
+    padding-right:20px;
+    position:relative;
+    float:left;
+    padding-bottom:12px
+   }
+   .c_arrow {
+    display:none
+   }
+   .view-more-btn-fixed {
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:12px;
+    display:block;
+    width:80px;
+    margin-bottom:24px
+   }
+   .view-more-btn-fixed .view-more-btn {
+    display:table;
+    width:80px;
+    border-radius:4px;
+    overflow:hidden;
+    background-color:#d8d8d8;
+    table-layout:fixed
+   }
+   .view-more-btn-fixed .view-more-btn span {
+    display:table-cell;
+    min-width:1px;
+    height:4px;
+    cursor:default;
+    vertical-align:middle;
+    pointer-events:none;
+    border-radius:4px;
+    border:0;
+    margin:0;
+    padding:0;
+    background:transparent;
+    font-size:0;
+    color:transparent;
+    line-height:0
+   }
+   .view-more-btn-fixed .view-more-btn span.active_tab {
+    width:36px;
+    height:4px;
+    background-color:#1179EF;
+    border-radius:4px
+   }
+   #homepageitemslider {
+    margin-top:32px
+   }
+   @media (min-width: 768px) {
+    .home-page h2 {
+     max-width:100%;
+     font-size:28px
+    }
+    .home-page .subtext {
+     margin-top:16px
+    }
+    .home-page .ul-iners ul li {
+     width:340px;
+     padding-right:30px
+    }
+    .no-slider-tab .view-more-btn-fixed {
+     display:none
+    }
+   }
+   @media (min-width: 992px) {
+    .no-slider-desk .view-more-btn-fixed {
+     display:none
+    }
+    .home-page h2 {
+     font-size:32px;
+     line-height:normal
+    }
+    .home-page .subtext {
+     font-size:16px
+    }
+    .c_arrow {
+     display:block
+    }
+    .view-more-btn-fixed {
+     position:relative;
+     overflow:visible;
+     margin-top:24px
+    }
+    .view-more-btn-fixed span.c_arrow {
+     position:absolute;
+     width:38px;
+     height:38px;
+     display:inline-block;
+     border-radius:50%;
+     cursor:pointer;
+     color:transparent;
+     font-size:0;
+     top:0;
+     bottom:0;
+     margin:auto;
+     background:url(https://www.simplilearn.com/ice9/assets/home/sprite_v2.svgz) no-repeat
+    }
+    .view-more-btn-fixed span.c_prev {
+     background-position:-109px -231px;
+     left:-58px
+    }
+    .view-more-btn-fixed span.c_prev:hover {
+     background-position:-197px -164px;
+     -ms-transform:rotate(180deg);
+     -webkit-transform:rotate(180deg);
+     transform:rotate(180deg)
+    }
+    .view-more-btn-fixed span.c_prev.hide-btn {
+     background-position:-209px -232px;
+     pointer-events:none;
+     cursor:default;
+     -ms-transform:rotate(180deg);
+     -webkit-transform:rotate(180deg);
+     transform:rotate(180deg)
+    }
+    .view-more-btn-fixed span.c_next {
+     right:-58px;
+     background-position:-168px -232px
+    }
+    .view-more-btn-fixed span.c_next:hover {
+     background-position:-199px -164px
+    }
+    .view-more-btn-fixed span.c_next.hide-btn {
+     background-position:-211px -232px;
+     pointer-events:none;
+     cursor:default
+    }
+   }

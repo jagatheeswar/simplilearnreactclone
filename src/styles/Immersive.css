@@ -1,0 +1,409 @@
+
+.partner img {
+    max-width:100%;
+    height:auto;
+    width:auto
+   }
+   .partner .tab,
+   .partner .desktop {
+    display:none
+   }
+   @media (min-width: 768px) {
+    .partner {
+     padding-top:32px;
+     min-height:210px
+    }
+    .partner p {
+     padding:0;
+     line-height:normal;
+     font-size:16px;
+     margin-bottom:34px
+    }
+    .partner .mobile {
+     display:none
+    }
+    .partner .tab {
+     display:inline-block
+    }
+   }
+   @media (min-width: 992px) {
+    .partner {
+     padding-bottom:44px;
+     min-height:162px
+    }
+    .partner .tab {
+     display:none
+    }
+    .partner .desktop {
+     display:inline-block
+    }
+   }
+   .bg-clr {
+    background:#f8fbff;
+    padding-top:56px;
+    padding-bottom:32px;
+    background-image:linear-gradient(to bottom, #f8fbff 10%, #fff 100%)
+   }
+   .bg-clr .container {
+    padding-right:0
+   }
+   .sliderh4 {
+    margin-top:32px;
+    font-size:18px;
+    letter-spacing:0.5px;
+    color:#272c37;
+    font-weight:700
+   }
+   .pgp-slider ul.key-list {
+    margin-bottom:0;
+    margin-top:16px
+   }
+   .pgp-slider ul.key-list li {
+    position:relative;
+    padding-left:22px;
+    margin-bottom:12px;
+    font-size:14px;
+    color:#51565e;
+    line-height:normal
+   }
+   .pgp-slider ul.key-list li::before {
+    content:"";
+    width:14px;
+    height:14px;
+    display:inline-block;
+    position:absolute;
+    top:1px;
+    left:0;
+    background:url(https://www.simplilearn.com/ice9/assets/home/sprite_v2.svgz) no-repeat;
+    background-position:-150px -21px
+   }
+   .pgp-slider ul.key-list li:last-child {
+    margin-bottom:0
+   }
+   .university-slider {
+    margin-top:32px
+   }
+   .university-slider .review-list {
+    height:100%
+   }
+   @media (min-width: 768px) {
+    .bg-clr {
+     padding-top:64px;
+     padding-bottom:40px
+    }
+    .pgp-slider ul.key-list {
+     margin-top:20px
+    }
+    .pgp-slider ul.key-list li {
+     margin-bottom:10px
+    }
+    .pgp-slider ul.key-list li:last-child {
+     margin-bottom:0
+    }
+    .Slider+.Slider .sliderh4 {
+     margin-top:64px
+    }
+   }
+   @media (min-width: 768px) and (max-width: 991px) {
+    .bg-clr .container {
+     width:100%;
+     padding-left:30px
+    }
+   }
+   @media (min-width: 992px) {
+    .sliderh4 {
+     font-size:24px;
+     margin-top:40px
+    }
+    .Slider+.Slider .sliderh4 {
+     margin-top:72px
+    }
+    .pgp-slider ul.key-list {
+     margin-top:24px
+    }
+    .pgp-slider ul.key-list li {
+     margin-bottom:0;
+     display:inline-block;
+     margin-right:25px
+    }
+    .pgp-slider ul.key-list li:last-child {
+     margin-right:0
+    }
+    .university-slider {
+     margin-top:40px
+    }
+    .bg-clr .container {
+     padding-right:15px
+    }
+   }
+   .review-list {
+    width:100%;
+    box-shadow:0 2px 5px 0 rgba(17,121,239,0.15);
+    border-radius:6px;
+    border:1px solid #e6ecef;
+    background:#fff;
+    transition:all 0.5s ease
+   }
+   .review-list a {
+    display:inline-block;
+    width:100%;
+    height:100%;
+    padding-bottom:86px;
+    position:relative
+   }
+   .review-list:hover {
+    box-shadow:0 2px 20px 0 rgba(17,121,239,0.2)
+   }
+   .review-list .slider-img {
+    height:174px;
+    text-align:center;
+    background:rgba(0,66,141,0.3);
+    border-radius:6px;
+    overflow:hidden
+   }
+   .review-list img {
+    max-width:100%;
+    width:100%;
+    height:auto
+   }
+   .review-list .slider-info {
+    margin:-24px 10px 0 10px;
+    background:#fff;
+    position:relative;
+    border-radius:6px;
+    padding:24px 10px 0 10px
+   }
+   .review-list .slider-info h4 {
+    font-size:16px;
+    line-height:1.5;
+    color:#272c37;
+    font-weight:700
+   }
+   .review-list .slider-info h4 div {
+    font-size:16px;
+    line-height:1.5;
+    color:#272c37;
+    font-weight:700
+   }
+   .review-list .info-list {
+    margin-top:16px
+   }
+   .review-list .info-list span {
+    display:block;
+    position:relative;
+    padding-left:26px;
+    font-size:14px;
+    font-weight:500;
+    color:#51565e;
+    margin-bottom:14px;
+    line-height:normal
+   }
+   .review-list .info-list span::before {
+    content:"";
+    width:14px;
+    height:14px;
+    display:inline-block;
+    position:absolute;
+    top:1px;
+    left:0;
+    background:url(https://www.simplilearn.com/ice9/assets/home/sprite_v2.svgz) no-repeat;
+    background-position:-84px -21px
+   }
+   .review-list .info-list span:last-child {
+    margin-bottom:0
+   }
+   .review-list .info-list span:last-child::before {
+    background-position:-117px -21px
+   }
+   .review-list .pgp-info {
+    position:absolute;
+    bottom:24px;
+    left:20px
+   }
+   .review-list .pgp-info img {
+    max-height:30px;
+    width:auto
+   }
+   @media (min-width: 1200px) {
+    .review-list a {
+     padding-bottom:94px
+    }
+    .review-list .slider-img {
+     height:202px
+    }
+    .review-list .slider-info {
+     padding-left:15px;
+     padding-right:15px
+    }
+    .review-list .slider-info h4 {
+     font-size:18px;
+     line-height:1.44
+    }
+    .review-list .slider-info h4 div {
+     font-size:18px;
+     line-height:1.44
+    }
+    .review-list .info-list {
+     margin-top:24px
+    }
+    .review-list .info-list span {
+     font-size:16px
+    }
+    .review-list .pgp-info {
+     left:25px
+    }
+   }
+   .master-card {
+    display:inline-block;
+    width:100%;
+    height:100%;
+    border-radius:6px;
+    box-shadow:0 2px 5px 0 rgba(17,121,239,0.15);
+    border:1px solid #e6ecef;
+    overflow:hidden;
+    background:#fff;
+    transition:all 0.5s ease
+   }
+   .master-card:hover {
+    box-shadow:0 2px 20px 0 rgba(17,121,239,0.2)
+   }
+   .grd-1 {
+    background:#ff5d63;
+    background-image:radial-gradient(circle at 28% 36%, #ff9195, #ff5d63 66%)
+   }
+   .grd-2 {
+    background:#0099c3;
+    background-image:radial-gradient(circle at 28% 36%, #00c5e3, #0099c3 99%)
+   }
+   .grd-3 {
+    background:#d2ac00;
+    background-image:radial-gradient(circle at 38% 32%, #f4c652, #d2ac00 92%)
+   }
+   .grd-4 {
+    background:#00bba6;
+    background-image:radial-gradient(circle at 28% 36%, #00dcc3, #00bba6 66%)
+   }
+   .grd-5 {
+    background:#8661df;
+    background-image:radial-gradient(circle at 28% 36%, #a889f2, #8661df 66%)
+   }
+   .grd-6 {
+    background:#d550ab;
+    background-image:radial-gradient(circle at 29% 37%, #ed82cb, #d550ab 68%)
+   }
+   .img_th_bundle {
+    height:70px;
+    padding-left:15px
+   }
+   .img_th_bundle span {
+    width:75px;
+    height:80px;
+    display:inline-block;
+    background:url(https://www.simplilearn.com/ice9/assets/home/sprite_v2.svgz) no-repeat;
+    background-position:-113px -53px;
+    position:relative;
+    top:16px
+   }
+   .bundle-info {
+    padding:32px 15px 16px 15px
+   }
+   .bundle-info h4 {
+    font-size:16px;
+    font-weight:700;
+    line-height:1.5;
+    color:#272c37
+   }
+   .bundle-info h4 div {
+    font-size:16px;
+    font-weight:700;
+    line-height:1.5;
+    color:#272c37
+   }
+   .bundle-info .info {
+    margin-top:16px;
+    color:#51565e;
+    margin-bottom:10px;
+    display:inline-block;
+    width:100%
+   }
+   .bundle-info .info span {
+    display:inline-block;
+    line-height:normal;
+    padding-left:25px;
+    position:relative;
+    font-size:14px
+   }
+   .bundle-info .info span::before {
+    content:"";
+    width:14px;
+    height:14px;
+    display:inline-block;
+    position:absolute;
+    top:1px;
+    left:0;
+    background:url(https://www.simplilearn.com/ice9/assets/home/sprite_v2.svgz) no-repeat;
+    background-position:-84px -21px
+   }
+   .bundle-info .info span:nth-child(2) {
+    margin-left:15px;
+    padding-left:40px
+   }
+   .bundle-info .info span:nth-child(2)::before {
+    background-position:-50px -20px;
+    left:15px
+   }
+   .bundle-info .info span:nth-child(2)::after {
+    display:inline-block;
+    content:"";
+    width:1px;
+    height:16px;
+    position:absolute;
+    left:0;
+    background:#d2d6de
+   }
+   .bundle-info p {
+    font-size:14px;
+    color:#51565e;
+    margin-top:14px;
+    padding-left:25px;
+    line-height:normal;
+    position:relative
+   }
+   .bundle-info p b {
+    font-weight:700
+   }
+   .bundle-info p::before {
+    content:"";
+    width:14px;
+    height:14px;
+    display:inline-block;
+    position:absolute;
+    top:1px;
+    left:0;
+    background:url(https://www.simplilearn.com/ice9/assets/home/sprite_v2.svgz) no-repeat;
+    background-position:-18px -21px
+   }
+   @media (min-width: 1200px) {
+    .bundle-info {
+     padding:32px 25px;
+     padding-bottom:16px
+    }
+    .bundle-info h4 {
+     font-size:18px;
+     line-height:1.44
+    }
+    .bundle-info h4 div {
+     font-size:18px;
+     line-height:1.44
+    }
+    .bundle-info .info {
+     margin-bottom:8px
+    }
+    .bundle-info .info span {
+     font-size:16px
+    }
+    .bundle-info p {
+     margin-top:16px;
+     font-size:14px
+    }
+   }

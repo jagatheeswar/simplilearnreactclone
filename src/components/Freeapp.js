@@ -1,0 +1,7 @@
+import React from "react";
+function Freeapp(){
+    return(
+<div><div class="free-app"><div class="container"><div class="left-app"><h2>Learn free on the App </h2><p>Download the lessons and learn anytime, anywhere from the free courses available on our app</p><div class="free-app-img"><img class="blend-mode" src="https://www.simplilearn.com/ice9/assets/home/free-app.png" alt="Free Learning App" width="16" height="9" /></div></div><div class="right-app"><div class="qr-code"><p>Scan this QR code on your camera app to download the app</p><img class="blend-mode" src="https://www.simplilearn.com/ice9/assets/home/qr-code.jpg" alt="QR Code" width="16" height="9" /></div><div class="google-play-app"><div id="playStoreButtonId"><div><a target="_blank" rel="noreferrer" href="https://play.google.com/store/apps/details?id=com.mobile.simplilearn"><img class="blend-mode" src="https://www.simplilearn.com/ice9/assets/home/android.svgz" rel="noreferrer" alt="Get the Android App" width="16" height="9" /></a><a target="_blank" rel="noreferrer" href="https://apps.apple.com/app/simplilearn/id963042747?ls=1"><img class="blend-mode" src="https://www.simplilearn.com/ice9/assets/home/IOS.svgz" rel="noreferrer" alt="Get the iOS App" width="16" height="9" /></a></div></div></div></div></div></div></div>
+)
+}
+export default Freeapp;

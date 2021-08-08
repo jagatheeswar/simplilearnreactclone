@@ -1,0 +1,299 @@
+
+a.play-anim {
+    display:block;
+    width:100%;
+    max-width:344px;
+    height:216px;
+    cursor:pointer;
+    background:url(https://www.simplilearn.com/ice9/assets/home/laptop_3.png) no-repeat;
+    background-position:0 0;
+    background-size:100%;
+    margin:0 auto;
+    position:relative
+   }
+   a.play-anim:focus,
+   a.play-anim:active,
+   a.play-anim:visited,
+   a.play-anim:hover {
+    border:0;
+    outline:transparent;
+    outline:0 none !important
+   }
+   a.play-anim::before,
+   a.play-anim::after {
+    content:"";
+    display:inline-block;
+    background:url(https://www.simplilearn.com/ice9/assets/home/sprite_v2.svgz) no-repeat;
+    position:absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin:auto
+   }
+   a.play-anim::before {
+    width:50px;
+    height:50px;
+    background-position:-32px -67px;
+    border-radius:50%;
+    z-index:1;
+    box-shadow:0 2px 6px 0 rgba(0,0,0,0.25)
+   }
+   a.play-anim::after {
+    content:"";
+    width:90px;
+    height:90px;
+    background-position:-12px -47px;
+    -webkit-animation:intro 2s infinite;
+    animation:intro 2s infinite;
+    -webkit-animation-timing-function:ease-out;
+    animation-timing-function:ease-out
+   }
+   @keyframes intro {
+    from {
+     -webkit-transform:scale(0.5);
+     transform:scale(0.5)
+    }
+    50% {
+     -webkit-transform:scale(0.9);
+     transform:scale(0.9)
+    }
+    to {
+     -webkit-transform:scale(0.5);
+     transform:scale(0.5)
+    }
+   }
+   a.play-anim::-moz-focus-inner {
+    border:0;
+    outline:0;
+    border-color:transparent
+   }
+   @media (min-width: 992px) and (max-width: 1199px) {
+    .home-page .ul-iners ul li {
+     width:316px;
+     padding-right:15px
+    }
+   }
+   @media (min-width: 1200px) {
+    .home-page .ul-iners ul li {
+     width:389px
+    }
+    #HeaderMenu {
+     display:inline-block;
+     min-height:62px;
+     width:100%;
+     float:left
+    }
+    #HeaderMenu header.sticky-top {
+     position:fixed;
+     top:0;
+     animation:smoothScroll 0.3s forwards;
+     -webkit-animation:smoothScroll 0.3s forwards;
+     z-index:99
+    }
+    #HeaderMenu header.sticky-top .search_topbar input[type=search] {
+     font-size:14px;
+     color:#118aef;
+     font-weight:400
+    }
+    #HeaderMenu header.sticky-top .search_topbar::placeholder {
+     font-size:14px;
+     color:#118aef;
+     font-weight:400
+    }
+    #HeaderMenu header.sticky-top .search_topbar:focus::placeholder {
+     color:transparent
+    }
+    #HeaderMenu.sticky-minimize+#MegaMenu #megamenu-box {
+     position:fixed;
+     margin-top:0;
+     top:63px
+    }
+   }
+   @keyframes smoothScroll {
+    0% {
+     top:-100px
+    }
+    100% {
+     top:0
+    }
+   }
+   @media (max-width: 767px) {
+    .pgp-slider+.Slider .sliderh4 {
+     margin-top:56px
+    }
+    .no-slider .view-more-btn-fixed {
+     display:none
+    }
+    div.banner a.play-anim {
+     bottom:0
+    }
+   }
+   .banner {
+    background:#8B5338 url(https://www.simplilearn.com/ice9/assets/home/banner_v1.jpg) no-repeat;
+    padding-top:56px;
+    color:#fff;
+    background-size:cover
+   }
+   .banner a.play-anim {
+    background-position:0 3px;
+    position:relative;
+    bottom:-1px
+   }
+   .banner h1 {
+    font-size:34px;
+    line-height:1.35;
+    letter-spacing:1.59px;
+    text-shadow:0 2px 6px rgba(0,0,0,0.4);
+    font-weight:700
+   }
+   .banner ul {
+    margin-top:16px;
+    margin-bottom:0
+   }
+   .banner li {
+    line-height:1.86;
+    font-size:14px;
+    text-shadow:0 2px 4px rgba(0,0,0,0.3);
+    font-weight:300
+   }
+   .banner li b {
+    font-weight:700
+   }
+   .banner .jwp {
+    width:100%;
+    height:100%;
+    padding:23px 16px 2px 16px
+   }
+   .banner .jwp .jwplayer {
+    width:100% !important;
+    height:100% !important;
+    z-index:1;
+    float:left
+   }
+   .right-clm {
+    text-align:center
+   }
+   .btn {
+    display:block;
+    margin:48px auto 48px auto;
+    width:274px;
+    line-height:44px;
+    box-shadow:0 4px 5px 2px rgba(0,0,0,0.2);
+    background:#1179EF;
+    color:#fff;
+    border-radius:6px;
+    text-align:center;
+    font-size:16px;
+    font-weight:500
+   }
+   .btn:hover {
+    background:#0a5dc9
+   }
+   @media (min-width: 768px) {
+    .banner {
+     display:inline-block;
+     width:100%;
+     padding-top:64px
+    }
+    .banner h1 {
+     font-size:44px;
+     line-height:1.32;
+     letter-spacing:1.5px;
+     padding-left:15px
+    }
+    .banner ul {
+     padding-left:15px
+    }
+    .banner li {
+     font-size:16px;
+     line-height:1.88
+    }
+    .banner .jwp {
+     padding:39px 29px 2px 29px
+    }
+    .btn {
+     margin-top:56px;
+     width:338px;
+     line-height:48px;
+     font-size:18px
+    }
+    .right-clm a {
+     width:583px;
+     height:382px;
+     max-width:100%
+    }
+   }
+   @media (min-width: 992px) {
+    .banner {
+     padding-top:80px;
+     background-position:center top
+    }
+    .banner .jwp {
+     padding:30px 23px 2px 23px
+    }
+    .banner h1,
+    .banner ul {
+     padding-left:0
+    }
+    .banner h1 {
+     font-size:50px;
+     line-height:1.28
+    }
+    .banner li {
+     font-size:18px;
+     line-height:1.67
+    }
+    .banner .left-clm {
+     width:475px;
+     display:inline-block;
+     margin-right:0px
+    }
+    .banner .left-clm .btn {
+     margin-bottom:56px;
+     margin-top:40px
+    }
+    .banner .right-clm {
+     width:calc(100% - 475px);
+     vertical-align:bottom;
+     display:inline-block
+    }
+    .banner .right-clm a {
+     height:305px;
+     width:465px
+    }
+    .btn {
+     width:260px;
+     margin-left:0
+    }
+   }
+   @media (min-width: 1200px) {
+    .banner .jwp {
+     padding:39px 29px 2px 29px
+    }
+    .banner .left-clm {
+     width:495px
+    }
+    .banner .right-clm {
+     width:calc(100% - 495px)
+    }
+    .banner .right-clm a {
+     height:382px;
+     width:583px;
+     margin-right:0
+    }
+   }
+   .partner {
+    text-align:center;
+    padding-top:24px;
+    padding-bottom:40px;
+    min-height:276px
+   }
+   .partner p {
+    padding-left:40px;
+    padding-right:40px;
+    font-size:14px;
+    color:#51565e;
+    line-height:1.57;
+    margin-bottom:32px
+   }

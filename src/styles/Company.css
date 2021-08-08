@@ -1,0 +1,297 @@
+
+.disc-section#disclaimers ul li {
+    color:#6d6d6d;
+    font-size:10px;
+    line-height:normal;
+    margin-bottom:10px;
+    padding-left:10px;
+    position:relative
+   }
+   .disc-section#disclaimers ul li:before {
+    content:"";
+    width:4px;
+    height:4px;
+    background:#777;
+    border-radius:100%;
+    margin:4px 0 0;
+    position:absolute;
+    left:0
+   }
+   .disc-section#disclaimers ul li:first-child {
+    color:#fff;
+    font-size:14px;
+    margin:0 0 12px;
+    padding-left:0
+   }
+   .disc-section#disclaimers ul li:first-child:before {
+    display:none
+   }
+   .footer-end {
+    width:100%;
+    display:inline-block
+   }
+   .sticky-footer-gdpr {
+    background:#0b0b0b;
+    bottom:-150px;
+    display:inline-block;
+    position:fixed;
+    right:0;
+    width:100%;
+    z-index:2;
+    height:43px;
+    transition:all 0.2s ease;
+    -webkit-transition:all 0.2s ease;
+    -moz-transition:all 0.2s ease;
+    -o-transition:all 0.2s ease
+   }
+   .sticky-footer-gdpr a {
+    color:#fff
+   }
+   .active-sticky-footer {
+    bottom:-1px
+   }
+   #sticky-footer-gdpr {
+    bottom:43px
+   }
+   .footer_sticky_bar {
+    position:relative
+   }
+   .footer_sticky_bar a {
+    display:inline-block;
+    font-weight:400;
+    line-height:17px;
+    padding:4px 18px 0;
+    position:relative;
+    width:auto;
+    font-size:13px
+   }
+   .footer_sticky_bar .how_it_works {
+    padding:10px 8px 5px;
+    cursor:pointer;
+    line-height:25px
+   }
+   .footer_sticky_bar .how_it_works:before {
+    background:url(https://www.simplilearn.com/static/frontend/images/home-page_sprite_v7.png) no-repeat;
+    background-position:-245px -161px;
+    background-color:rgba(0,0,0,0);
+    content:"";
+    display:inline-block;
+    height:28px;
+    margin-right:10px;
+    vertical-align:middle;
+    width:28px
+   }
+   .footer_sticky_wrapper a:hover,
+   .footer_sticky_bar .how_it_works:hover {
+    border-bottom:2px solid #00a7dc
+   }
+   .footer_sticky_wrapper .live_chat_div li.call_no_stiky a:hover {
+    border-bottom:0
+   }
+   .footer_sticky_bar .live_chat_div {
+    width:875px
+   }
+   .aap_icon {
+    background:url(https://www.simplilearn.com/static/frontend/images/home-page_sprite_v7.png) no-repeat;
+    display:inline-block
+   }
+   .aap_icon.call_us_on {
+    background-position:-313px -163px;
+    width:25px
+   }
+   .live_chat_div li {
+    vertical-align:middle;
+    color:#fff;
+    float:left;
+    font-size:13px;
+    margin-right:0
+   }
+   .live_chat_div li.callback_link {
+    width:auto
+   }
+   .live_chat_div .call_no_stiky {
+    padding-right:10px;
+    display:none
+   }
+   .live_chat_div li.btn_active_green {
+    width:133px
+   }
+   .live_chat_div li.live_chat_icon {
+    background:#00a7dc;
+    border-bottom:2px solid #00a7dc
+   }
+   .live_chat_div li.live_chat_icon a {
+    padding:12px 18px 6px 0
+   }
+   .live_chat_div .chat_icon_footer {
+    background-position:-348px -166px;
+    width:40px
+   }
+   .live_chat_div .live_text_chat {
+    display:inline-block
+   }
+   .live_chat_div span {
+    float:left;
+    height:21px;
+    margin:2px 0 0 10px;
+    vertical-align:middle;
+    display:inline-block
+   }
+   .live_chat_div a.sticky_request_call {
+    padding:15px 18px 6px 0;
+    border-bottom:2px solid transparent
+   }
+   .live_chat_div a.sticky_request_call:hover {
+    border-bottom:2px solid #00a7dc
+   }
+   .live_chat_div .call_back_footer {
+    background-position:-282px -165px;
+    width:25px;
+    height:22px;
+    margin-top:-3px
+   }
+   .callbackleadform {
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    z-index:1
+   }
+   #footer-country {
+    position:relative;
+    font-size:14px;
+    color:rgba(255,255,255,0.5)
+   }
+   #footer-country a.country-flg {
+    border:1px solid #494440;
+    border-radius:3px;
+    display:inline-block;
+    line-height:20px;
+    padding:5px;
+    margin:0 10px
+   }
+   #footer-country a.country-flg img {
+    width:auto
+   }
+   #footer-country .dropdown_country {
+    border:0px solid #e6ecef;
+    position:absolute;
+    right:15px;
+    top:-279px;
+    width:250px;
+    background:#fff;
+    z-index:1;
+    height:279px;
+    overflow-x:hidden
+   }
+   #footer-country .dropdown_country a {
+    padding:4px 10px;
+    font-size:14px;
+    color:#000;
+    white-space:normal;
+    display:block;
+    clear:both;
+    font-weight:300;
+    line-height:1.42857143;
+    text-align:left
+   }
+   #footer-country .dropdown_country a:nth-child(10) {
+    border-bottom:1px dotted #222
+   }
+   #footer-country .dropdown_country a:hover {
+    background:#fff4ca
+   }
+   @media (max-width: 767px) {
+    #footer-country .dropdown_country {
+     right:-15px
+    }
+    footer .foot-socials a.insta span {
+     left:-1px
+    }
+    footer .footer_discover {
+     margin-top:50px
+    }
+    footer .brand-courses {
+     border-top:0px;
+     margin:0 15px;
+     width:auto
+    }
+    footer .brand-courses p {
+     margin-top:64px;
+     margin-bottom:24px
+    }
+    .mobile-footer {
+     display:block
+    }
+   }
+   @media (max-width: 991px) {
+    footer a {
+     padding-bottom:15px
+    }
+    footer .foot-socials a.desktop {
+     display:none
+    }
+   }
+   @media (max-width: 991px) {
+    footer .brand-courses {
+     margin:0 15px;
+     width:auto
+    }
+    footer .brand-courses p {
+     margin-top:64px
+    }
+   }
+   @media (min-width: 992px) {
+    .closeFooterCallBackForm {
+     display:inline-block;
+     background:#1e1e1e;
+     width:100%;
+     position:relative;
+     border-top-left-radius:5px;
+     border-top-right-radius:5px
+    }
+    .closeFooterCallBackForm a {
+     border-bottom:2px solid #0892C2;
+     display:block;
+     padding:10px 0;
+     text-align:left;
+     width:100%;
+     color:#fff;
+     padding-left:35px;
+     font-size:13px;
+     font-weight:300
+    }
+    .closeFooterCallBackForm a::after {
+     content:"";
+     border:none;
+     height:3px;
+     background:#fff;
+     padding:0;
+     position:absolute;
+     right:9px;
+     top:19px;
+     width:14px
+    }
+    .footer-end-top {
+     margin-top:32px
+    }
+   }
+   .eu-container+.active-sticky-footer {
+    bottom:65px
+   }
+   .simpli_terms #footer-country a.country-flg:focus+div.dropdown_country {
+    display:block
+   }
+   ul.simpli_terms li#footer-country:after {
+    display:none
+   }
+   ul.simpli_terms li.country-address {
+    width:100%
+   }
+   ul.simpli_terms li.country-address h2 {
+    display:block;
+    font-size:12px;
+    color:rgba(255,255,255,0.5);
+    margin-bottom:0;
+    padding:0 25px;
+    line-height:24px;
+    margin-top:15px
+   }

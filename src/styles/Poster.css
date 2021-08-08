@@ -1,0 +1,298 @@
+
+@media (min-width: 992px) {
+    #reviews a.play-anim {
+     width:485px;
+     height:285px;
+     margin-right:0
+    }
+   }
+   @media (min-width: 1200px) {
+    #reviews a.play-anim {
+     width:639px;
+     height:375px
+    }
+   }
+   @media (min-width: 992px) and (max-width: 1199px) {
+    #reviews .left-clm {
+     width:360px
+    }
+    #reviews .right-clm {
+     width:calc(100% - 360px)
+    }
+    #reviews .right-clm a.play-anim {
+     width:580px;
+     height:341px
+    }
+   }
+   .reviews {
+    padding-bottom:32px
+   }
+   .reviews h2 {
+    margin-bottom:32px
+   }
+   .reviews .container {
+    padding-right:0
+   }
+   .reviews .review-card {
+    width:100%;
+    background:#fff;
+    border-radius:4px;
+    box-shadow:0 2px 8px 0 rgba(0,0,0,0.1);
+    position:relative;
+    padding:20px 30px 56px 20px;
+    height:100%
+   }
+   .reviews .review-card::after {
+    width:100%;
+    content:"";
+    height:6px;
+    background-color:#0a5dc9;
+    background-image:linear-gradient(92deg, #128aef, #0a5dc9);
+    position:absolute;
+    bottom:0;
+    left:0;
+    border-radius:0 0 4px 4px
+   }
+   .reviews .review-card .profile {
+    width:80px;
+    height:80px;
+    border:4px solid #fff;
+    box-shadow:0 10px 20px 0 rgba(141,169,188,0.2);
+    border-radius:50%;
+    display:block;
+    margin:0 auto;
+    position:relative;
+    margin-left:0
+   }
+   .reviews .review-card .profile img {
+    width:100%;
+    height:100%;
+    border-radius:50%
+   }
+   .reviews .review-card .profile:after {
+    display:inline-block;
+    content:"";
+    width:26px;
+    height:26px;
+    background:url("https://www.simplilearn.com/ice9/assets/course_sprite_7.svgz") no-repeat;
+    background-position:-18px -289px;
+    position:absolute;
+    bottom:0;
+    right:-6px
+   }
+   .reviews .review-card .profile.disableClass {
+    pointer-events:none
+   }
+   .reviews .review-card .profile.disableClass::after {
+    display:none
+   }
+   .reviews .review-card h3 {
+    margin-top:20px;
+    letter-spacing:0;
+    font-size:14px;
+    font-weight:400;
+    color:#51565e
+   }
+   .reviews .review-card h3+span {
+    font-size:16px;
+    line-height:normal;
+    display:inline-block;
+    width:100%;
+    margin-top:8px;
+    color:#272c37;
+    font-weight:400
+   }
+   .reviews .review-card h3+span b {
+    font-weight:700
+   }
+   .reviews .review-card p {
+    margin-top:20px;
+    font-size:14px;
+    line-height:1.71;
+    color:#51565e
+   }
+   .reviews .review-card p b {
+    font-weight:700
+   }
+   @media (min-width: 768px) {
+    .reviews {
+     padding-bottom:40px
+    }
+    .reviews .ul-iners ul li {
+     width:585px;
+     padding-right:0
+    }
+    .reviews .review-card {
+     width:551px;
+     padding-bottom:40px;
+     padding-right:40px
+    }
+    .reviews .review-card .profile {
+     float:left
+    }
+    .reviews .review-card .info {
+     float:left;
+     width:calc(100% - 80px);
+     text-align:left;
+     padding:0 0px 0 20px
+    }
+    .reviews .review-card .info h3 {
+     margin-top:0
+    }
+    .reviews .review-card .info h3+span {
+     margin-top:14px
+    }
+    .reviews .review-card p {
+     display:inline-block;
+     width:100%;
+     text-align:left;
+     font-size:16px;
+     line-height:1.75
+    }
+   }
+   @media (max-width: 991px) {
+    .reviews .container {
+     width:100%
+    }
+   }
+   @media (min-width: 992px) {
+    .reviews h2 {
+     margin-bottom:40px
+    }
+    .reviews .ul-iners ul li {
+     width:490px
+    }
+    .reviews .ul-iners ul li .review-card {
+     width:456px
+    }
+   }
+   @media (min-width: 1200px) {
+    .reviews .ul-iners ul li {
+     width:585px
+    }
+    .reviews .ul-iners ul li .review-card {
+     width:551px;
+     padding:24px 30px 66px 30px
+    }
+   }
+   @media (max-width: 1199px) and (min-width: 992px) {
+    .reviews .container {
+     width:100%;
+     padding-left:35px
+    }
+    .reviews .ul-iners ul li {
+     width:585px
+    }
+    .reviews .ul-iners ul li .review-card {
+     width:555px
+    }
+   }
+   .bootcamp {
+    background:#f8fbff;
+    padding-bottom:48px
+   }
+   .bootcamp span {
+    font-size:14px;
+    font-weight:500;
+    color:#272c37;
+    line-height:normal;
+    margin-top:32px;
+    display:inline-block
+   }
+   .bootcamp h2 {
+    margin-top:8px
+   }
+   .bootcamp ul {
+    margin-top:40px;
+    margin-bottom:0;
+    padding-left:15px
+   }
+   .bootcamp ul li {
+    margin-top:32px;
+    position:relative
+   }
+   .bootcamp ul li h4 {
+    margin-top:0;
+    color:#343434;
+    font-size:16px;
+    font-weight:700;
+    line-height:1.5;
+    width:100%;
+    max-width:262px
+   }
+   .bootcamp ul li p {
+    margin-top:8px;
+    font-size:14px;
+    color:#51565e;
+    line-height:1.57
+   }
+   .bootcamp ul li img {
+    vertical-align:top;
+    width:40px;
+    height:auto
+   }
+   .bootcamp ul li .bootcamp-info {
+    width:calc(100% - 45px);
+    display:inline-block;
+    padding-left:30px
+   }
+   .bootcamp ul li .bootcamp-img {
+    display:inline-block;
+    vertical-align:top
+   }
+   .bootcamp ul li:first-child {
+    margin-top:0
+   }
+   @media (min-width: 768px) {
+    .bootcamp h2 {
+     font-size:32px;
+     max-width:540px;
+     line-height:normal;
+     margin-top:8px
+    }
+    .bootcamp ul {
+     max-width:540px
+    }
+    .bootcamp ul li {
+     margin-top:40px
+    }
+   }
+   @media (min-width: 992px) {
+    .bootcamp span {
+     margin-top:48px
+    }
+    .bootcamp h2 {
+     margin-top:12px
+    }
+    .bootcamp ul {
+     margin-top:48px;
+     padding-left:0;
+     max-width:100%
+    }
+    .bootcamp ul li {
+     width:calc(100% - 705px);
+     display:inline-block;
+     vertical-align:top;
+     margin-top:0
+    }
+    .bootcamp ul li .bootcamp-info {
+     display:block;
+     padding-left:0;
+     width:calc(100% - 30px)
+    }
+    .bootcamp ul li h4 {
+     font-size:16px
+    }
+    .bootcamp ul li p {
+     color:#848da0;
+     line-height:1.43;
+     margin-top:16px
+    }
+    .bootcamp ul li .bootcamp-img {
+     height:82px
+    }
+    .bootcamp ul li img {
+     width:50px
+    }
+   }
+   

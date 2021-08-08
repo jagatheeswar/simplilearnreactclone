@@ -1,0 +1,325 @@
+
+.course-wrap .sliderh4 {
+    margin-top:56px
+   }
+   .course-wrap .slid-detail {
+    margin-top:32px
+   }
+   div.course-list{
+       width: 20% !important;
+       margin: 0%;
+       
+   }
+   .course-list a {
+    display:inline-block;
+    width:50%;
+   
+    border-radius:6px;
+    box-shadow:0 2px 5px 0 rgba(17,121,239,0.15);
+    border:1px solid #e6ecef;
+    background:#fff;
+    padding:12px 20px;
+    position:relative;
+    margin-bottom:16px;
+    transition:all 0.5s ease;
+    min-height:146px
+   }
+   .course-list a:hover {
+    box-shadow:0 2px 20px 0 rgba(17,121,239,0.2)
+   }
+   .course-list a::before {
+    content:"";
+    width:5px;
+    height:35px;
+    display:inline-block;
+    position:absolute;
+    top:15px;
+    left:0
+   }
+   .course-list a:last-child {
+    margin-bottom:0
+   }
+   .course-list .cr-1::before,
+   .course-list .cr-4::before {
+    background:#ff8c90
+   }
+   .course-list .cr-1:nth-last-child(odd)::before,
+   .course-list .cr-4:nth-last-child(odd)::before {
+    background:#00d8c0
+   }
+   .course-list .cr-2::before,
+   .course-list .cr-5::before {
+    background:#00c3e1
+   }
+   .course-list .cr-2:nth-last-child(odd)::before,
+   .course-list .cr-5:nth-last-child(odd)::before {
+    background:#a686f1
+   }
+   .course-list .cr-3::before,
+   .course-list .cr-6::before {
+    background:#f1c44a
+   }
+   .course-list .cr-3:nth-last-child(odd)::before,
+   .course-list .cr-6:nth-last-child(odd)::before {
+    background:#ed80ca
+   }
+   .course-list h4 {
+    font-size:16px;
+    font-weight:700;
+    color:#272c37;
+    line-height:1.5;
+    min-height:48px
+   }
+   .course-list h4 div {
+    font-size:16px;
+    font-weight:700;
+    color:#272c37;
+    line-height:1.5;
+    min-height:48px
+   }
+   .course-list span.type {
+    display:inline-block;
+    margin-top:14px;
+    background:#e2edf9;
+    line-height:22px;
+    padding:0px 10px;
+    font-size:12px;
+    color:#848da0;
+    text-transform:uppercase;
+    position:relative
+   }
+   .course-list span.type::after {
+    content:"";
+    display:inline-block;
+    width:15px;
+    height:22px;
+    background:url(https://www.simplilearn.com/ice9/assets/home/sprite_v2.svgz) no-repeat;
+    background-position:-309px -57px;
+    position:absolute;
+    right:-15px
+   }
+   .course-list .rating-wrap {
+    display:block;
+    margin-top:16px;
+    line-height:normal
+   }
+   .course-list .rating-wrap span {
+    font-size:12px;
+    color:#636363
+   }
+   .course-list .rating-wrap .rating::before {
+    content:"";
+    display:inline-block;
+    width:14px;
+    height:14px;
+    background:url(https://www.simplilearn.com/ice9/assets/home/sprite_v2.svgz) no-repeat;
+    background-position:-183px -21px;
+    vertical-align:middle;
+    margin-top:-2px;
+    margin-right:5px
+   }
+   .course-list .rating-wrap .lrns {
+    position:relative
+   }
+   .course-list .rating-wrap .lrns::before {
+    content:"";
+    width:1px;
+    height:14px;
+    background:#d2d6de;
+    position:absolute;
+    left:0;
+    top:0;
+    display:none
+   }
+   .course-list .rating-wrap .rating+.lrns {
+    margin-left:15px;
+    padding-left:15px
+   }
+   .course-list .rating-wrap .rating+.lrns::before {
+    display:inline-block
+   }
+   @media (min-width: 992px) {
+    .course-wrap .sliderh4 {
+     margin-top:72px
+    }
+   }
+   @media (min-width: 1200px) {
+    .course-list a {
+     padding:16px 25px;
+     margin-bottom:24px;
+     min-height:154px
+    }
+    .course-list a:last-child {
+     margin-bottom:0
+    }
+    .course-list h4 {
+     font-size:18px;
+     line-height:1.44;
+     min-height:52px
+    }
+    .course-list h4 div {
+     font-size:18px;
+     line-height:1.44;
+     min-height:52px
+    }
+    .course-list span.type {
+     margin-top:12px
+    }
+    .course-list .rating-wrap {
+     margin-top:14px
+    }
+   }
+   @media (max-width: 767px) {
+    .course-list .rating-wrap {
+     width:calc(100% + 12px)
+    }
+   }
+   .bg-grad-dn {
+    background:#f8fbff linear-gradient(to top, #f8fbff 10%, #fff 100%)
+   }
+   .pad-t-b {
+    padding-top:64px;
+    padding-bottom:80px
+   }
+   #reviews .left-clm {
+    display:inline-block;
+    width:455px;
+    vertical-align:bottom
+   }
+   #reviews .rating li {
+    padding-top:37px
+   }
+   #reviews .rating li a {
+    display:table;
+    text-align:left;
+    color:inherit
+   }
+   #reviews .rating li a>* {
+    display:table-cell;
+    vertical-align:middle
+   }
+   #reviews .rating li a img {
+    width:auto;
+    height:auto;
+    max-width:100%
+   }
+   #reviews .rating li a span.count {
+    display:block;
+    font-size:8px;
+    line-height:normal;
+    color:#272c37;
+    font-weight:700;
+    padding-left:3px
+   }
+   #reviews .rating li a span.count b {
+    font-weight:700;
+    display:inline-block
+   }
+   #reviews .rating .val {
+    font-weight:700;
+    font-size:40px;
+    line-height:50px;
+    width:130px;
+    position:relative;
+    color:#272c37
+   }
+   #reviews .rating .val::before {
+    content:"";
+    position:absolute;
+    right:32px;
+    top:50%;
+    margin-top:-24px;
+    height:48px;
+    border-right:1px solid #bdc6d9
+   }
+   #reviews .rating .val::after {
+    content:"";
+    display:inline-block;
+    background:transparent url(https://www.simplilearn.com/ice9/assets/home/sprite.svgz) no-repeat -183px -21px;
+    width:13px;
+    height:13px
+   }
+   #reviews .right-clm {
+    display:inline-block;
+    width:calc(100% - 455px)
+   }
+   #reviews .right-clm a {
+    background:url(https://www.simplilearn.com/ice9/assets/home/alumni-video_v1.jpg) no-repeat;
+    background-size:100% 100%
+   }
+   #reviews .jwp {
+    width:100%;
+    height:100%
+   }
+   #reviews .jwp .jwplayer {
+    width:100% !important;
+    height:100% !important;
+    z-index:1;
+    float:left
+   }
+   #reviews a.play-anim {
+    width:100%;
+    max-width:344px;
+    height:201px
+   }
+   @media (max-width: 991px) {
+    #reviews .left-clm {
+     width:100%
+    }
+    #reviews .left-clm ul {
+     margin-bottom:0
+    }
+    #reviews .left-clm ul li {
+     padding-top:20px
+    }
+    #reviews .right-clm {
+     width:100%;
+     margin-top:48px
+    }
+    #reviews .rating .val {
+     font-size:28px;
+     width:104px
+    }
+    #reviews .rating .val::before {
+     height:40px;
+     top:0;
+     bottom:0;
+     margin:auto
+    }
+   }
+   @media (min-width: 768px) and (max-width: 991px) {
+    #reviews h2 br {
+     display:none
+    }
+    #reviews .left-clm ul li {
+     padding-top:0;
+     padding-right:45px;
+     display:inline-block
+    }
+    #reviews .rating {
+     margin-top:40px
+    }
+    #reviews .rating .val {
+     width:auto;
+     padding-right:30px
+    }
+    #reviews .rating .val::before {
+     right:15px
+    }
+    #reviews .rating img {
+     max-height:40px
+    }
+   }
+   @media (max-width: 767px) {
+    .pad-t-b {
+     padding-top:56px;
+     padding-bottom:56px
+    }
+   }
+   @media (min-width: 768px) {
+    #reviews a.play-anim {
+     width:708px;
+     height:415px;
+     max-width:100%
+    }
+   }
