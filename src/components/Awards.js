@@ -1,7 +1,24 @@
 import React from "react";
+import Awardscomponent from "./Awardscomponent";
 function Awards(){
     return(
-<div className="trusted_by"><div className="container"><span>Awards and Accolades</span><div className="trust-logos"><a rel="noreferrer nofollow" className="" aria-label="trusted brands" href="#" target="_blank"><div className="award-img"><img className="gold-winner0 blend-mode" src="https://www.simplilearn.com/ice9/assets/home/2018-gold-winner.png" alt="2018 Gold Winner" width="16" height="9"/></div><span>2018 Gold Winner</span><p>For Customer Service by Stevie Awards</p></a><a rel="noreferrer nofollow" className="" aria-label="trusted brands" href="#" target="_blank"><div className="award-img"><img className="gold-winner1 blend-mode" src="https://www.simplilearn.com/ice9/assets/home/2020-gold-winner.png" alt="2020 Gold Winner" width="16" height="9"/></div><span>2020 Gold Winner</span><p>For Customer Service by Stevie Awards</p></a><a rel="noreferrer nofollow" className="" aria-label="trusted brands" href="#" target="_blank"><div className="award-img"><img className="gold-winner2 blend-mode" src="https://www.simplilearn.com/ice9/assets/home/AGBA-2020-winner.png" alt="AEGIS GRAHAM BELL AWARDS" width="16" height="9"/></div><span>2020 Winner</span><p>Innovations in Edtech by Aegis Graham Bell Award</p></a><a rel="noreferrer nofollow" className="" aria-label="trusted brands" href="#" target="_blank"><div className="award-img"><img className="gold-winner3 blend-mode" src="https://www.simplilearn.com/ice9/assets/home/2019_Top20.png" alt="2019 Top Online Learning Library Companies" width="16" height="9"/></div><span>2019 Winner</span><p>Online Learning Library Training Industry</p></a><a rel="noreferrer nofollow" className="" aria-label="trusted brands" href="#" target="_blank"><div className="award-img"><img className="gold-winner4 blend-mode" src="https://www.simplilearn.com/ice9/assets/home/2020_Top20.png" alt="2020 Top Online Learning Library Companies" width="16" height="9"/></div><span>2020 Winner</span><p>Online Learning Library Training Industry</p></a></div></div></div>
+<div className="trusted_by"><div className="container">
+    <span>Awards and Accolades</span><div className="trust-logos">
+
+    <Awardscomponent awardname={"2018 Gold Winner"} description={"for customer service by Stevie Awards"} image={"https://www.simplilearn.com/ice9/assets/home/2018-gold-winner.png"} />
+
+    <Awardscomponent awardname={"2020 Gold Winner"} description={"for customer service by Stevie Awards"} image={"https://www.simplilearn.com/ice9/assets/home/2020-gold-winner.png"} />
+    
+<Awardscomponent awardname={"2020 Winner"} description={"Innovations in Edtech by Aegis Graham Bell Award"} image={"https://www.simplilearn.com/ice9/assets/home/2020-gold-winner.png"} />
+
+
+<Awardscomponent awardname={"2019 Winner"} description={"Online Learning Library Training Industry"} image={"https://www.simplilearn.com/ice9/assets/home/2019_Top20.png"} />
+
+<Awardscomponent awardname={"2020 Winner"} description={"Online Learning Library Training Industry"} image={"https://www.simplilearn.com/ice9/assets/home/2020_Top20.png"} />
+
+
+                </div></div></div>
 )
 }
 export default Awards;
+
